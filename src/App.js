@@ -36,6 +36,7 @@ class App extends Component {
     return (
       <div>
         <div>Hello {this.state.user.name}</div>
+        <div>Hello {this.state.user.username}</div>
       </div>
     )
   }
