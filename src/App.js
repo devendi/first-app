@@ -33,10 +33,11 @@ class App extends Component {
 
   render (){
     
+    const user = this.state.user;
     return (
       <div>
-        <div>Hello {this.state.user.name}</div>
-        <div>Hello {this.state.user.username}</div>
+        <div>Hello {user.name}</div>
+        <div>Hello {user.username}</div>
       </div>
     )
   }
